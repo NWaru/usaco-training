@@ -8,9 +8,7 @@ import java.io.*;
 import java.util.*;
 
 class friday
-{
-    
-    
+{        
     public static void main(String[] args) throws IOException
     {
 	BufferedReader f = new BufferedReader(new FileReader("friday.in"));
@@ -76,9 +74,5 @@ class friday
 	    }
 	}
 	return(appearances);
-    }
-
-    
-
-    
+    }   
 }
